@@ -1,0 +1,32 @@
+.feedback_container{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 4px 7px 7px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    justify-content: center;
+    align-self: center;
+}
+.feedback_container{
+    font-size: 18px;
+    font-weight: 700;
+}
+.feedback_input{
+    width: 35vw;
+    height: 20vh;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #555;
+    padding: 10px;
+    resize: none;
+    color: #444;
+}
+.button_send{
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}

@@ -1,0 +1,45 @@
+.acoordin{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  #panel1-header{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+  }
+  .accordin_booking_record_icon{
+    color: #000000;
+    font-size: 19px;
+  }
+
+.Accordin_box{
+    box-shadow: 0 4px 8px rgba(32, 27, 27, 0.4) !important;
+  }
+  .tableHeaderRefundStyle{
+    background-color: rgba(230, 225, 225, 0.658);
+    border: 1px solid black;
+  
+  }
+  .tableHeaderRefundStyle th{
+    font-weight: 600;
+    font-size: 14px;
+    color:#000;
+    
+  }
+  .marks_table_row{
+    border: 1px solid black;
+  }
+  .marks_table_row>th{
+    border: 1px solid black;
+    text-align: center;
+
+  }
+  .marks_table_row>td{
+    border: 1px solid black;
+    text-align: center;
+  }
+  .marks_subject{
+    width: 20vw;
+  }
+  

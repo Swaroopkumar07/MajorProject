@@ -1,0 +1,59 @@
+.Matter{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 20px;
+    margin-top: 30px; */
+    align-items: center;
+    padding: auto;
+    margin-top: 20px;
+}
+.multipleselect{
+    width:15vw;
+    
+}
+.marks_input{
+  box-shadow: 0 4px 8px rgba(32, 27, 27, 0.4);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 16vw;
+  height: 7vh;
+  padding: 10px;
+  font-size: 16px;
+  
+}
+.marks_input {
+    -moz-appearance: textfield;
+  }
+.marks_input::-webkit-inner-spin-button,
+.marks_input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.marks_input[type='number'] {
+    -ms-inner-appearance: none;
+  }
+  
+.upload_button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 25px;
+    width: fit-content;
+    padding: 10px;
+
+}
+.select_input{
+  box-shadow: 0 4px 8px rgba(32, 27, 27, 0.4); 
+  border-radius: 10px;
+  border: none !important;
+  height: 7vh !important;
+  width: 16vw;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.Multiple_container{
+  display: flex;
+  flex-direction: column;
+}
